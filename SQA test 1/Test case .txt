@@ -1,0 +1,22 @@
+
+
+
+===============Configure IP in PC1============
+IP 192.168.10.10
+Mask 255.255.255.0
+Gateway 192.168.10.1
+=================Configure IP in R2====================
+Router>en
+Router#conf t
+Router(config)#hostname R2
+R2(config)#int f0/0
+R2(config-if)#ip add 192.168.2.2 255.255.255.252
+R2(config-if)#no shutdown
+R2(config-if)#int f0/1
+R2(config-if)#ip add 192.168.10.2 255.255.255.0
+R2(config-if)#no shutdown
+===============Configure IP in PC2============
+IP 192.168.10.20
+Mask 255.255.255.0
+Gateway 192.168.10.2
+==============Making OSPF in
