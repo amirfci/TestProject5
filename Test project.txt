@@ -1,0 +1,12 @@
+01. ayyyyy       Expected : Error Message
+02. DEV$1236     Expected : Error Message
+03. dev%$12345   Expected : Error Message
+04. Dev@#0196#$  Expected : Right Message
+05. 123456       Expected : Error Message
+06. 12345678     Expected : Error Message
+07. Dev@06$      Expected : Error Message
+08. bikrom@peoplentch.com.bd Expected: Error Message
+09. Dev#$$$#kkk Expected : Error Message
+10. DEV%$$$###$ EXpected : Error Message
+11. DEV12364896 EXpected : Error Message
+12. 
